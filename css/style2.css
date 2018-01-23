@@ -9,5 +9,7 @@ use float to make something locate itself on the right or left
 
 body{
     padding: 30px;
-    background-color: #ffffff;
+    background-color: #7da8ed;
+    color: #002663;
+    font-family: "Verdana", sans-serif;
 }
