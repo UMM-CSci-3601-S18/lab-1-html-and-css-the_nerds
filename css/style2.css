@@ -10,6 +10,27 @@ use float to make something locate itself on the right or left
 body{
     padding: 30px;
     background-color: #7da8ed;
-    color: #002663;
+    color: #2d74e5;
     font-family: "Verdana", sans-serif;
+}
+
+#main-title{
+
+  color: #002663;
+  text-align: center;
+
+}
+
+#pslo {
+  background-color: #7da8ed;
+  padding-left: 50%;
+}
+
+#courses {
+  background-color: #7da8ed;
+  padding-right: 50%;
+}
+
+#faculty {
+  background-color: #7da8ed;
 }
