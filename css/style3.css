@@ -9,5 +9,55 @@ use float to make something locate itself on the right or left
 
 body{
     padding: 30px;
-    background: linear-gradient(#7A0019, #ffffff);
+    /*background: linear-gradient(#7A0019, #ffffff);*/
+  background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Data-Wallpaper-for-Desktop-PIC-WPB003452.jpg");
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+#main-title{
+  color: #FFDE7A;
+  text-align: right;
+  font-size: 60px;
+  font-family: "Helvetica";
+}
+
+#style {
+  position: fixed;
+  background-color: transparent;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 55px;
+  padding-top: 10px;
+}
+
+#style li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#style ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#style li {
+  float: left; /*explore what happens if this is 'right' instead*/
+}
+
+#faculty1, #faculty2, #pslo, #courses{
+  border: 15px outset #333;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10%;
+  /*background: linear-gradient(#76a0e0, #ffffff);*/
+  background-image: url("https://media.gettyimages.com/photos/white-wooden-table-texture-background-picture-id511201318?b=1&k=6&m=511201318&s=612x612&w=0&h=lMDViqASq_ihPokdAhjV9riZEh3SzQBdio5TSxFvvzM=");
 }
