@@ -21,7 +21,7 @@ body{
 
 }
 
-#faculty1{
+#faculty1, #faculty2{
   text-align: center;
 }
 
@@ -62,10 +62,6 @@ body{
 h2{
   text-align: center;
   font-size: 25px;
-}
-
-#faculty2{
-  text-align: center;
 }
 
 #faculty2>ul>li {
