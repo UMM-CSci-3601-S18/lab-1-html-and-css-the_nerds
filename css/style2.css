@@ -22,14 +22,27 @@ body{
 }
 
 #pslo {
-  margin-left: 50%;
-  padding: 5px;
+  margin-left: 2px;
+  padding: 0px;
   font-size: 18px;
 }
 
-#courses {
-  margin-right: 50%;
-  padding: 5px;
+@media screen and (min-width: 850px) {
+  #pslo{
+    margin-left: 50%;
+    padding: 5px;
+  }
+}
+#courses{
+  margin-right: 2px;
+  padding: 0px;
+}
+
+@media screen and (min-width: 850px) {
+  #courses {
+    margin-right: 50%;
+    padding: 5px;
+  }
 }
 
 h2{
