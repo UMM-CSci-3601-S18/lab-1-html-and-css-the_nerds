@@ -8,20 +8,20 @@ use float to make something locate itself on the right or left
 */
 
 body{
-    padding: 30px;
-    /*background: linear-gradient(#7A0019, #ffffff);*/
+  padding: 30px;
+  /* Here, instead of a solid image color, we use an actual image for the background
+     We had considered using a gradient background but eventually decided on the image */
   background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Data-Wallpaper-for-Desktop-PIC-WPB003452.jpg");
   margin-left: auto;
   margin-right: auto;
-
-
 }
 
 #main-title{
+/* */
   color: #ffffff;
   text-align: right;
   font-size: 80px;
-  font-family: "Helvetica";
+  font-family: "Helvetica", sans-serif;
 }
 
 #style {
@@ -63,4 +63,11 @@ body{
 #faculty1, #faculty2 {
   text-align: center;
   font-size: 20px;
+}
+
+.card-body{
+  /* Here we make it so that you can actually read the text at the bottom of the page
+     Since we have a fairly dark and varied background, picking one font color to make it readable would be rather difficult
+     So making the background a static color that's easy to read against (white) is a simple solution */
+  background-color: #ffffff;
 }

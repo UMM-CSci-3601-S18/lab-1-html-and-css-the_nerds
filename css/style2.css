@@ -15,14 +15,22 @@ body{
 }
 
 #main-title{
+  /* Here we give the main title a large enough font size for it to stand out from the rest of the text
+  while not being too large */
   font-size: 40px;
   color: #002663;
+  /* We also make sure to center the title so that it's quick and easy to see where you are */
   text-align: center;
-
 }
 
+/* We had originally planned on having the faculty images next to the content of the page
+   however we ran into snags with getting the two elements to line up properly
+   and it ended up being more work than we could handle with our current skill level
+   so instead we just centered half the faculty images at the top of the page and half at the bottom*/
 #faculty1, #faculty2{
   text-align: center;
+  margin-left: 12%;
+  margin-right:12%;
 }
 
 #faculty1>ul>li {
@@ -41,22 +49,24 @@ body{
   font-size: 18px;
 }
 
+/* Here we check to see if the window is big enough such that the content of the page is still readable */
 @media screen and (min-width: 850px) {
+  /* This block reduces the total size of the PSLO element and shifts it to the left
+     We did this to get a kind of tiling affect with the content blocks */
   #pslo{
     margin-left: 50%;
     padding: 5px;
   }
-}
-#courses{
-  margin-right: 2px;
-  padding: 0;
-}
 
-@media screen and (min-width: 850px) {
   #courses {
     margin-right: 50%;
     padding: 5px;
   }
+}
+
+#courses{
+  margin-right: 2px;
+  padding: 0;
 }
 
 h2{
@@ -73,7 +83,6 @@ h2{
 #faculty-list2 {
   padding-left: 0
 }
-
 
 .section{
   background-color: #ffffff;
